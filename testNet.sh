@@ -10,3 +10,4 @@ ganache-cli -b 1 -p 8555 -a 10 -e 1000 --account 0xab2f763cd57b8e6cd564cb0c0fd6d
 #set solidity compiler version for compound
 sed -i '/version: /c\      version: "0.5.12",' truffle-config.js
 
+truffle compile
